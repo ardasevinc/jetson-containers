@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=docker.io/ardasevinc/boldpilot:noetic-l4t-r32.4.3
+ARG BASE_IMAGE=dustynv/ros:noetic-ros-base-l4t-r32.5.0
 FROM ${BASE_IMAGE}
 
 SHELL ["/bin/bash", "-c"] 
