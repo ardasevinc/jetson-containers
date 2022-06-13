@@ -2,10 +2,10 @@
 # this dockerfile roughly follows the 'Installing from source' from:
 #   http://wiki.ros.org/noetic/Installation/Source
 #
-ARG BASE_IMAGE=nvcr.io/nvidia/l4t-base:r32.4.3
+ARG BASE_IMAGE=nvcr.io/nvidia/l4t-base:r32.5.0
 FROM ${BASE_IMAGE}
 
-ARG ROS_PKG=viz
+ARG ROS_PKG=ros_base
 ENV ROS_DISTRO=noetic
 ENV ROS_ROOT=/opt/ros/${ROS_DISTRO}
 ENV ROS_PYTHON_VERSION=3
